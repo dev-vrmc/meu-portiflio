@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="geral/img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+  <link rel="stylesheet" href="geral/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="geral/css/media-query.css">
+  <title>Início</title>
+</head>
+
+<body>
+  <header class="header" id="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+    <nav class="nav_container">
+      <a href="index.html" class="nav__logo">Victor Roger</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link highlight">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="sobre.html" class="nav__link">Sobre Mim</a>
+          </li>
+          <li class="nav__item">
+            <a href="projetos.html" class="nav__link">Projetos</a>
+          </li>
+          <li class="nav__item">
+            <a href="contato.html" class="nav__link">Contato</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-fill"></i>
+        </div>
+      </div>
+      <div class="nav__actions">
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="home section">
+      <div id="particles-js"></div>
+      <div class="home__container">
+
+        <div class="home__content">
+          <div class="column__left" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="1000">
+            <h1 class="home__name">Victor Roger</h1>
+            <div class="profession__content">
+              <div class="line__profession-right"></div>
+              <h2 class="home__profession">Dev Fullstack & Visual Designer</h2>
+              <div class="line__profession-left"></div>
+            </div>
+            <div class="home__message">
+              <h2>
+                "Seja corajoso o suficiente <br> para ser ruim em algo novo." <br> – César Roberto
+              </h2>
+            </div>
+
+            <div class="button__content">
+              <a href="geral/pdf/Currículo.pdf" class="home__button button" download>
+                Baixar Currículo
+              </a>
+            </div>
+          </div>
+
+          <div class="column__right" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="1000">
+            <div class="frame">
+              <img src="geral/img/Foto sem fundo.png" alt="Foto de perfil" class="perfil__img foto-desktop">
+              <img src="geral/img/perfil.png" alt="Foto Mobile" class="perfil__img foto-mobile">
+
+              <div class="home__social">
+                <span class="social__label">SIGAM-ME</span>
+                <span class="social__line"></span>
+                <a href="https://github.com/dev-vrmc" target="_blank" class="home__social-link">
+                  <i class="ri-github-fill"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/dev-victor-roger" target="_blank" class="home__social-link">
+                  <i class="ri-linkedin-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/dev.vrmc" target="_blank" class="home__social-link">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a href="mailto:dev.vrmc@email.com" class="home__social-link" aria-label="E-mail" target="_blank">
+                  <i class="ri-mail-send-fill"></i>
+                </a>
+                <!-- <a href="https://www.whatsapp.com" target="_blank" class="home__social-link">
+                  <i class="ri-whatsapp-line"></i> !-->
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__services">
+      <div class="titles__center" data-aos="fade-up" data-aos-duration="500">
+        <h1 class="title__center">Meus Serviços</h1>
+        <div class="line"></div>
+      </div>
+      <section class="services__cards" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <i class="ri-code-s-slash-line services__icon"></i>
+              <h2 class="services__title">Web Developer</h2>
+              <p class="services__description">
+                Crio experiências digitais modernas, focadas em performance, estética e usabilidade. Interfaces
+                inteligentes, funcionais e voltadas às reais necessidades do usuário final.
+              </p>
+              <div class="refresh__button">
+                <i class="ri-loop-right-line refresh__icon"></i>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="services__modal-content">
+                <h2 class="services__modal-title">Web Developer</h2>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    Desenvolvimento de websites responsivos e otimizados.
+                  </li>
+                  <li class="services__modal-item">
+                    Integração com tecnologias modernas para alto desempenho.
+                  </li>
+                  <li class="services__modal-item">
+                    SEO técnico e estrutura limpa para melhor ranqueamento.
+                  </li>
+                  <li class="services__modal-item">
+                    Solução eficiente de bugs e melhorias contínuas.
+                  </li>
+                </ul>
+              </div>
+              <div class="refresh__button">
+                <i class="ri-loop-right-line refresh__icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <i class="ri-pen-nib-line services__icon"></i>
+              <h2 class="services__title">Web Designer</h2>
+              <p class="services__description">
+                Transformo ideias em interfaces visuais marcantes, combinando estética, clareza e propósito. Cada layout
+                é pensado para comunicar, engajar e elevar a experiência do usuário.
+              </p>
+              <div class="refresh__button">
+                <i class="ri-loop-right-line refresh__icon"></i>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="services__modal-content">
+                <h2 class="services__modal-title">Web Designer</h2>
+                <ul class="services__modal-list">
+
+                  <li class="services__modal-item">
+                    Criação de interfaces modernas, elegantes e funcionais.
+                  </li>
+                  <li class="services__modal-item">
+                    Foco em experiência do usuário (UX) e design responsivo.
+                  </li>
+                  <li class="services__modal-item">
+                    Identidade visual consistente e alinhada à marca.
+                  </li>
+                  <li class="services__modal-item">
+                    Prototipagem e organização visual com atenção aos detalhes.
+                  </li>
+                </ul>
+              </div>
+              <div class="refresh__button">
+                <i class="ri-loop-right-line refresh__icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner alone">
+            <div class="flip-card-front">
+              <i class="ri-layout-2-line services__icon"></i>
+              <h2 class="services__title">UI/UX Designer</h2>
+              <p class="services__description">
+                Crio interfaces digitais intuitivas, modernas e elegantes, sempre com foco na usabilidade e na
+                construção de uma experiência do usuário fluida, envolvente e eficaz do início ao fim.
+              </p>
+              <div class="refresh__button">
+                <i class="ri-loop-right-line refresh__icon"></i>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="services__modal-content">
+                <h2 class="services__modal-title">UI/UX Designer</h2>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    Criação de experiências intuitivas e centradas no usuário.
+                  </li>
+                  <li class="services__modal-item">
+                    Design de interfaces visuais funcionais e acessíveis.
+                  </li>
+                  <li class="services__modal-item">
+                    Testes de usabilidade e melhoria contínua do fluxo.
+                  </li>
+                  <li class="services__modal-item">
+                    Wireframes, protótipos e jornadas do usuário bem definidos.
+                  </li>
+                </ul>
+              </div>
+              <div class="refresh__button">
+                <i class="ri-loop-right-line refresh__icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <section class="projects">
+      <div class="titles__center" data-aos="fade-up" data-aos-duration="500">
+        <h1 class="title__center">Alguns Projetos</h1>
+        <div class="line"></div>
+      </div>
+
+      <div class="carousel-container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <div class="carousel-row">
+          <button class="carousel-btn" id="prevBtn">&#10094;</button>
+
+          <div class="carousel-viewport">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="carousel-card">
+                <a href="teste.html" target="_blank">
+                  <img src="geral/img/shadow of the colossus - my site.png" alt="Projeto 1">
+                  <h2>Tela de Login</h2>
+                </a>
+                <p>
+                  Tela de login, inspirada em Shadow Of The Colossus, desenvolvida num desafio proposto pela professora
+                  de design gráfico. Onde aprendi como trabalhar com responsividade, palheta de cores e funcionalidade
+                  visual.
+                </p>
+              </div>
+              <div class="carousel-card">
+                <img src="geral/img/Figma projeto.png" alt="Projeto 2">
+                <a href="" target="_blank">
+                  <h2>Projeto no Figma</h2>
+                </a>
+                <p>Um projeto onde criei um modelo para celular no Figma inspirado pelo site <a class="react__color"
+                    href="https://www.tudogostoso.com.br/" target="_blank">Tudo Gostoso</a>. Onde aprendi a mexer com
+                  essa ferramenta.</p>
+              </div>
+              <div class="carousel-card">
+                <img src="geral/img/cyber x.png" alt="Projeto 3">
+                <a href="" target="_blank">
+                  <h2>Página inicial da Cyber X</h2>
+                </a>
+                <p>Essa é a página inicial do meu projeto desenvolvido com meus colegas de classe, no meu curso técnico,
+                  para nossa apresentação final. A marca do nosso site é a Cyber X.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-btn" id="nextBtn">&#10095;</button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+    <section class="contact__me" div class="carousel-container" data-aos="fade-up" data-aos-duration="1000"
+      data-aos-easing="ease-in-out">
+      <h1>Vamos começar <br>
+        o seu<span class="react__color"> projeto! </span>
+      </h1>
+      <a href="contato.html" class="button">Fale Comigo</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <a href="index.html" class="footer__logo">Victor Roger</a>
+
+      <ul class="footer__links">
+        <li>
+          <a href="sobre.html" class="footer__link">Sobre Mim</a>
+        </li>
+        <li>
+          <a href="projetos.html" class="footer__link">Projetos</a>
+        </li>
+        <li>
+          <a href="contato.html" class="footer__link">Contato</a>
+        </li>
+      </ul>
+
+      <div class="footer__social">
+        <a href="https://www.instagram.com/dev.vrmc" target="_blank" class="footer__social-link">
+          <i class="ri-instagram-line"></i>
+        </a>
+        <a href="https://github.com/dev-vrmc" target="_blank" class="footer__social-link">
+          <i class="ri-github-fill"></i>
+        </a>
+        <a href="mailto:dev.vrmc@email.com" class="footer__social-link" aria-label="E-mail" target="_blank">
+          <i class="ri-mail-send-fill"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/dev-victor-roger" target="_blank" class="footer__social-link">
+          <i class="ri-linkedin-box-fill"></i>
+        </a>
+        <!-- <a href="https://www.whatsapp.com" target="_blank" class="footer__social-link">
+          <i class="ri-whatsapp-line"></i>
+        </a> !-->
+      </div>
+    </div>
+    <span class="footer__copy">
+      © 2025 Victor Roger. Todos os direitos reservados.
+    </span>
+  </footer>
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <script src="geral/js/index.js"> </script>
+  <script src="geral/js/main.js"> </script>
+  <script src="geral/js/particles.js"></script>
+  <script src="geral/js/app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="geral/js/aos.js"></script>
+  <script src="geral/js/carousel.js"></script>
+</body>
+
+</html>
