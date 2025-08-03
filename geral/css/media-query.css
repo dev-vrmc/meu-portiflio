@@ -41,6 +41,10 @@
     display: block;
   }
 
+  .nav__logo{
+    margin-right: 40px;
+  }
+
   #particles-js {
     display: none !important;
   }
