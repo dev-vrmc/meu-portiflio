@@ -26,6 +26,9 @@
   .nav__menu.show-menu {
     right: 0;
   }
+  .bg-pages, .header{
+    background-color: var(--container-color);
+  }
 
   .nav__list,
   .footer__links {
